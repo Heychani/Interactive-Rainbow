@@ -28,7 +28,7 @@ function purpleColour() {
   document.getElementById("purple").innerHTML = "purple";
 }
 
-function lightpurpleColour() {
-  document.getElementById("lightpurple").style.backgroundColor = "lightpurple";
-  document.getElementById("lightpurple").innerHTML = "lightpurple";
+function violetColour() {
+  document.getElementById("violet").style.backgroundColor = "violet";
+  document.getElementById("violet").innerHTML = "violet";
 }
