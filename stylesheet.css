@@ -1,22 +1,45 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 h1 {
-    padding-top: 2rem;
-    
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 2s ease;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    font-family: 'Anek Telugu', sans-serif;
+    font-size: 64px;
+    padding-top: 1rem;
     text-align: center;
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     color: transparent;
     -webkit-background-clip: text;
+    font-stretch: extra-expanded;
+}
+
+h2 {
+    font-family: 'Anek Telugu', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-stretch: extra-expanded;
 }
 
 .border{
     padding: 2rem;
+    background-color: lightgrey;
+}
+
+div {
+    text-align: center;
+    font-family: 'Anek Telugu', sans-serif;
+    font-size: 36px;
 }
 
 #red {
+    transition: 1s ease-in;
+    animation-direction: alternate-reverse;
     width: 100%;
     height: 5rem;
     border-style: solid;
@@ -24,36 +47,53 @@ h1 {
 }
 
 #orange {
+    transition: 1s ease-in;
+    animation-direction: alternate-reverse;
     width: 100%;
     height: 5rem;
     border-style: solid;
     color: orange;
 }
+
 #yellow {
+    transition: 1s ease-in;
+    animation-direction: alternate-reverse;
     width: 100%;
     height: 5rem;
     border-style: solid;
     color: yellow;
 }
+
 #green {
+    transition: 1s ease-in;
+    animation-direction: alternate-reverse;
     width: 100%;
     height: 5rem;
     border-style: solid;
     color: green;
 }
+
 #blue {
+    transition: 1s ease-in;
+    animation-direction: alternate-reverse;
     width: 100%;
     height: 5rem;
     border-style: solid;
     color: blue;
 }
+
 #purple {
+    transition: 1s ease-in;
+    animation-direction: alternate-reverse;
     width: 100%;
     height: 5rem;
     border-style: solid;
     color: purple;
 }
+
 #violet {
+    transition: 1s ease-in;
+    animation-direction: alternate-reverse;
     width: 100%;
     height: 5rem;
     border-style: solid;
