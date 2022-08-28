@@ -1,0 +1,11 @@
+h3 {
+    font-size: larger;
+    align-content: center;
+    justify-content: center;
+    color: rgb(red, green, blue);
+}
+
+#red {
+    width: 100%;
+    height: 20px;
+}
